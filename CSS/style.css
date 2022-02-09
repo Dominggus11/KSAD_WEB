@@ -1,4 +1,10 @@
 /* Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&display=swap');
+
 
 /* Navbar */
 .nav1{
@@ -8,35 +14,109 @@
 
 /* */
 
+/* CSS */
+
+
 /* About */
-.jCP1{
-    background-image: url(../IMG/rdam.png);
-    height: 440px;
-    margin-top: 100px;
-    font-family: 'Quicksand', sans-serif;
-    color: white;
-    text-align: center;
+.sc-about-desc{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #F4F4F4;
+}
+
+.sc-about-desc .bg{
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 5px;
+    background-image: url(../IMG/Meinor\ Noob\ To\ Pro.png);
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+
+.sc-team{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #d1dee4;
+}
+
+.sc-team .line{
+    font-family: 'Gill Sans MT', sans-serif;
     font-weight: bold;
+    color: #0c0b0b;
+    text-align: center;
+    font-weight: 600;
 }
 
-.jCP2{
-    font-family: 'Quicksand', sans-serif;
+.sc-team h2{
+    color: #0c0b0b;
     text-align: center;
+    font-weight: 600;
 }
 
-.jCP3{
-    font-family: 'Quicksand', sans-serif;
-    text-align: center;
+.sc-team .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.jCP4{
-    font-family: 'Quicksand', sans-serif;
+
+.sc-team .container .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sc-team .team{
+    border-radius: 10px;
+    border: 2px solid #C6C6C6;
+    overflow: hidden;
+    margin-top: 20px;
+    background-color: #FFFF;
+}
+
+.sc-team .team-pic{
+    align-items: center;
+    width: 40vh;
+    height: 40vh;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.sc-team .team-pic img{
+    width: 100%;
+}
+
+.sc-team .team-desc{
+    padding-left: 50px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.sc-team .team-desc h4{
+    color: #000;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+.sc-team .team-desc i{
+    color: #808080;
+    margin-top: 10px;
 }
 
 /* */
 
-
 /* Footer */
-.foot1{
+.footer1{
     background-color: white;
     font-family: 'Quicksand', sans-serif;
 }
@@ -57,11 +137,16 @@
 }
 
 #logomitra{
-    width: 60px;
-    height: 60px;
+    width: 90px;
+    height: 100px;
     padding-top: 0%;
 }
 
-.footer1{
-    text-align: end;
+#logomitra1{
+    width: 150px;
+    height: 150px;
+}
+
+.footer2{
+    text-align: center;
 }
