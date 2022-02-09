@@ -9,7 +9,7 @@
 /* */
 
 /* About */
-.jKontak1{
+.jCP1{
     background-image: url(IMG/rdam.png);
     height: 440px;
     margin-top: 100px;
@@ -19,16 +19,16 @@
     font-weight: bold;
 }
 
-.jkontak2{
+.jCP2{
     font-family: 'Quicksand', sans-serif;
     text-align: center;
 }
 
-.jkontak3{
+.jCP3{
     font-family: 'Quicksand', sans-serif;
     text-align: center;
 }
-.jkontak4{
+.jCP4{
     font-family: 'Quicksand', sans-serif;
 }
 
@@ -36,11 +36,12 @@
 
 
 /* Footer */
-.fot1{
+.foot1{
     background-color: white;
     font-family: 'Quicksand', sans-serif;
 }
-.jayara{
+
+.meinor{
     padding-left: 20px;
     text-align: justify;
 }
@@ -49,19 +50,18 @@
     text-align: justify;
     padding-right: 70px;
 }
+
 #logofooter{
     width: 150px;
-    height: 100px;
+    height: 150px;
 }
+
 #logoMitra{
     width: 60px;
     height: 60px;
     padding-top: 0%;
 }
-#logoMitra1{
-    width: 100px;
-    height: 140px;
-}
+
 .footer1{
     text-align: end;
 }
