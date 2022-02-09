@@ -1,0 +1,67 @@
+/* Font */
+
+/* Navbar */
+.nav1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+/* */
+
+/* About */
+.jKontak1{
+    background-image: url(IMG/rdam.png);
+    height: 440px;
+    margin-top: 100px;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.jkontak2{
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+
+.jkontak3{
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+.jkontak4{
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* */
+
+
+/* Footer */
+.fot1{
+    background-color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+.jayara{
+    padding-left: 20px;
+    text-align: justify;
+}
+
+.pengertian1{
+    text-align: justify;
+    padding-right: 70px;
+}
+#logofooter{
+    width: 150px;
+    height: 100px;
+}
+#logoMitra{
+    width: 60px;
+    height: 60px;
+    padding-top: 0%;
+}
+#logoMitra1{
+    width: 100px;
+    height: 140px;
+}
+.footer1{
+    text-align: end;
+}
